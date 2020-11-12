@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+double function(double a, double b) {
+    return a * b;
+}
+
+void main() {
+    printf("%f", function (1.5, 2.5));
+}
