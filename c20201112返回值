@@ -1,0 +1,9 @@
+#include<studio.h>
+
+char function() {
+    return 'a';
+}
+
+void main() {
+    printf("%c\n", function ());
+}
