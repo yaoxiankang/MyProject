@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-double function(double a, double b) {
-    return a * b;
+float function(float a, float b) {
+    return (float)(a * b);
 }
 
 void main() {
-    printf("%f", function (1.5, 2.5));
+    printf("%f", function (1.5f, 2.5f));
 }
