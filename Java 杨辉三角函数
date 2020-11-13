@@ -1,0 +1,18 @@
+  static void yanghu() {
+		int[][] intTest = new int[10][10];
+		for (int i = 0; i < intTest.length; i++) {
+			intTest[i][0] = 1;
+			intTest[i][i] = 1;
+		}
+		for (int i = 2; i < intTest.length; i++) {
+			for (int j = 1; j < i; j++) {
+				intTest[i][j] = intTest[i - 1][j] + intTest[i - 1][j - 1];
+			}
+		}
+		for (int i = 0; i < intTest.length; i++) {
+			for (int j = 0; j <= i; j++) {
+				System.out.print(intTest[i][j] + " ");
+			}
+			System.out.println();
+		}
+	}
