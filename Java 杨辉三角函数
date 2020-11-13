@@ -1,15 +1,15 @@
   static void yanghu() {
 		int[][] intTest = new int[10][10];
-		for (int i = 0; i < intTest.length; i++) {
+		for (int i = 0; i < intTest.length; i++) {//将1赋值给每行的第一个数和最后一个数
 			intTest[i][0] = 1;
 			intTest[i][i] = 1;
 		}
-		for (int i = 2; i < intTest.length; i++) {
+		for (int i = 2; i < intTest.length; i++) {//计算出除1以外的数值，因为杨辉三角第一行和第二行的所有数的值都为1.所以从第三行开始
 			for (int j = 1; j < i; j++) {
 				intTest[i][j] = intTest[i - 1][j] + intTest[i - 1][j - 1];
 			}
 		}
-		for (int i = 0; i < intTest.length; i++) {
+		for (int i = 0; i < intTest.length; i++) {//打印出杨辉三角
 			for (int j = 0; j <= i; j++) {
 				System.out.print(intTest[i][j] + " ");
 			}
