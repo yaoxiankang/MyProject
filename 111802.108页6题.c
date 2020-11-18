@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main() {
 	int a;
-	scanf("%d",&a);
+	scanf("%d", &a);
 	if (a < 1) {
 		printf("%d\n", a);
 	} else if (a >= 10) {
