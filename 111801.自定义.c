@@ -16,7 +16,7 @@ void main(){
 		printf("水电工工资。\n");
 	} else if (a <= 50000) {
 		printf("脑袋大脖子粗不是老板就是伙夫。\n");
-	} else {
+	} else if (a <= 200000000){
 		printf("程序员。\n");
 	}
 }
