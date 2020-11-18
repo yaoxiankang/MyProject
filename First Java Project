@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//0.0
 class FirstProject 
 { 
 	public static int tempMoney = 0;
