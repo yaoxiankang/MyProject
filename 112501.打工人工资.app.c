@@ -8,7 +8,7 @@ void main(){
 		printf("贫困打工人\n");
 	} else if (a <= 1000) {
 		printf("一般打工人\n");
-	} else if (a <= 20000) {
+	} else {
 		printf("土豪打工人。\n");
 	}
 }
