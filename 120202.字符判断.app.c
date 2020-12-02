@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(){
 	char a;
-	printf("AWSAD\n");
+	printf("输大写的wsad\n");
 	scanf("%c", &a);
 	switch(a) {
 		case 'W': {
