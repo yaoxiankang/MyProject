@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main(){
 	int a;
+	printf("请输入1-20\n");
 	scanf("%d", &a);
 	switch(a) {
 		case 1: {
