@@ -7,9 +7,9 @@ void main() {
 	for(i = 0; i < 20; i++) {
 		for(j = 0; j < 10; j++) {
 			a[i][j] = 999;
-			printf("%d    ", a[i][j]);
+			printf("%d   ", a[i][j]);
 		}
-		printf("%d\n");
+		printf("\n");
 	}
 	Sleep(5000);
 	for(i = 0; i < 20; i++) {
@@ -17,6 +17,6 @@ void main() {
 			a[i][j] = 0;
 			printf("%d   ", a[i][j]);
 		}
-		printf("%d\n");
+		printf("\n");
 	}
 }	
